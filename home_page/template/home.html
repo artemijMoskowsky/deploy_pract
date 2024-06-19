@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+    <form method = 'post' enctype= "multipart/form-data">
+        <input type="text" name="name" value="">
+        <input type="file" name="img" value="" accept = "image/*">
+        <button type="submit">SAVE</button>
+    </form>
+{% endblock %}
